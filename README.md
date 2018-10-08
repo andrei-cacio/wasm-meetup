@@ -7,3 +7,6 @@
 ## How does all of this work?
 
 ### Tooling
+
+#### Emscripten
+#### wasm-rust
