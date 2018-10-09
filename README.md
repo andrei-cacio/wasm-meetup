@@ -12,7 +12,9 @@
 #### wasm-rust
 
 ### Rust
-Two out of three (ain't bad) key concepts of the language:
+Everything is immutable by default.
+
+#### Two out of three (ain't bad) key concepts of the language:
 - ownership
 example:
 ```rust
@@ -37,3 +39,4 @@ fn main() {
 	print_vec(&vec);
 	print_vec(&vec);
 }
+```
