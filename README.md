@@ -17,6 +17,11 @@ Because of JavaScript's dynamic nature you cannot bypass all the optimization pr
 (Images above courtesy of [Lin Clark](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2017/02/05-03-diagram_future01.png))
 
 ## How does all of this work?
+![img](./wasm.png)
+
+Once fetched we have the following api:
+
+```
 
 ### Tooling
 
