@@ -19,8 +19,10 @@ Because of JavaScript's dynamic nature you cannot bypass all the optimization pr
 ## How does all of this work?
 ![img](./wasm.png)
 
-### Key concepts
-#### Memory
+### Key concepts (3 out of 4)
+1. Module: The compiled wasm representation.
+2. Instance: The actual module with all the functions exported.
+3. Memory
 The first shared layer between our JavaScript environment and our WASM module is the memory. WebAssembly manages state threw a linear memory represented by an [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer).
 `ArrayBuffer`'s on their own are an intermediate representation of a blob of raw byte data. To work with this blob we will need a way shape it to our needs. Entering: [`TypedArrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays). 
 
