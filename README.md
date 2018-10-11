@@ -19,8 +19,20 @@ Because of JavaScript's dynamic nature you cannot bypass all the optimization pr
 ## How does all of this work?
 ![img](./wasm.png)
 
-Once fetched we have the following api:
+### Key concepts
+#### Memory
+The first shared layer between our JavaScript environment and our WASM module is the memory. WebAssembly manages state threw a linear memory represented by an [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer).
+`ArrayBuffer`'s on their own are an intermediate representation of a blob of raw byte data. To work with this blob we will need a way shape it to our needs. Entering: [`TypedArrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays). 
 
+![img](https://mdn.mozillademos.org/files/8629/typed_arrays.png)
+
+```javascript
+const rawBuff = new ArrayBuffer(16);
+const view8 = new Uint8Array(rawBuff);
+const view32 = new Uint32Array(rawBuff);
+
+view32[0] = 1;
+view32[1] = 2;
 ```
 
 ### Tooling
@@ -65,3 +77,4 @@ fn main() {
 3. [What makes WebAssembly fast - Lin Clark](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
 4. [WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
 5. [What makes WebAssembly fast](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
+6. [MDN - TypedArrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
