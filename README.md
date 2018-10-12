@@ -80,3 +80,4 @@ fn main() {
 4. [WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
 5. [What makes WebAssembly fast](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
 6. [MDN - TypedArrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
+7. [wasm-bindgen docs](https://rustwasm.github.io/wasm-bindgen/)
