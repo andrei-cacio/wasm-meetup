@@ -53,7 +53,7 @@ cons:
 ### [native-wasm-target](https://www.hellorust.com/news/native-wasm-target.html)
 pros:
 - no extra tooling, just the Rust compiler
-- [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) a more high level approach of JS ⇔ interaction
+- [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) a more high level approach of **JS ⇔ wasm** interaction
 - easy setup
 
 cons:
