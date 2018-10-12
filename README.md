@@ -37,10 +37,10 @@ view32[0] = 1;
 view32[1] = 2;
 ```
 
-### Tooling
-
-#### Emscripten
+## Tooling
 *Disclaimer: pros/cons from a newbie's point of view. Highly experienced proffesionals may have a different perspective*
+
+### [Emscripten](https://users.rust-lang.org/t/compiling-to-the-web-with-rust-and-emscripten/7627)
 
 pros:
 - battle tested
@@ -50,7 +50,7 @@ cons:
 - overwhelming docs
 - setting up everything can be awkward
 
-#### wasm-rust
+### [native-wasm-target](https://www.hellorust.com/news/native-wasm-target.html)
 pros:
 - no extra tooling, just the Rust compiler
 - [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) a more high level approach of JS ⇔ interaction
