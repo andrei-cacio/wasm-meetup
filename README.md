@@ -60,7 +60,7 @@ pros:
 cons:
 - bleeding edge-ish, still under development (need Rust beta)
 
-### Our arsenal
+### Our arsenal ([docs](https://rustwasm.github.io/book/game-of-life/setup.html))
 - `wasm-pack`
 - `cargo-generate`
 - `npm`
