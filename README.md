@@ -20,6 +20,7 @@ Because of JavaScript's dynamic nature you cannot bypass all the optimization pr
 ![img](./wasm.png)
 
 ### Key concepts (3 out of 4)
+The `WebAssembly` namespace
 1. Module: The compiled wasm representation.
 2. Instance: The actual module with all the functions exported.
 3. Memory
@@ -88,6 +89,12 @@ fn main() {
 	print_vec(&vec);
 }
 ```
+
+### WASM and JS
+1. Exporting and executing Rust functions in JavaScript
+2. Calling JavaScript functions in Rust
+3. Reading an array from Rust
+4. Communicating with complex data structures
 
 ## References
 1. [Rust Book - Ownership](https://doc.rust-lang.org/1.8.0/book/ownership.html)
