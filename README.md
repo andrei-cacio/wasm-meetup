@@ -97,8 +97,8 @@ fn main() {
 }
 ```
 
-### WASM and JS with
-Two official patterns for communicating between JavaScript and Wasm:
+### WASM and JS
+Two official patterns for communicating between JavaScript and WASM:
 1. OGW
 2. KOSBIT
 
