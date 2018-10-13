@@ -60,6 +60,13 @@ pros:
 cons:
 - bleeding edge-ish, still under development (need Rust beta)
 
+### Our arsenal
+- `wasm-pack`
+- `cargo-generate`
+- `npm`
+- `wasm-bindgen`
+- `webpack 4`
+
 ### Rust
 Everything is immutable by default.
 
@@ -90,7 +97,12 @@ fn main() {
 }
 ```
 
-### WASM and JS
+### WASM and JS with
+Two official patterns for communicating between JavaScript and Wasm:
+1. OGW
+2. KOSBIT
+
+#### Some common interactions
 1. Exporting and executing Rust functions in JavaScript
 2. Calling JavaScript functions in Rust
 3. Reading an array from Rust
