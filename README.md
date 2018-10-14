@@ -107,6 +107,7 @@ $ ./example
 - [`wasm-pack`](https://github.com/rustwasm/wasm-pack) The superhero in our movie. This tool manages our workflow and helps us create, build and ship WebAssembly code
 - [`cargo-generate`](https://github.com/ashleygwilliams/cargo-generate) This tool will generate us a Rust boilerplate project just to get us started fast.
 - [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) Our second superhero in our movie. This bad boy will be our main tour guide from Rust world to JS world and back.
+- [`create-wasm-app`](https://github.com/rustwasm/create-wasm-app) An npm init project for generating a project that consumes rust-generated wasm via webpack
 - `npm` Needs no intro
 - `webpack 4` Also needs no introduction
 
