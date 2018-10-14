@@ -71,7 +71,6 @@ Everything is immutable by default.
 
 #### Two out of three (ain't bad) key concepts of the language:
 - ownership
-example:
 ```rust
 fn print_vec(vec: Vec<i32>) {
 	println!("{:?}", vec);	
@@ -94,6 +93,14 @@ fn main() {
 	print_vec(&vec);
 	print_vec(&vec);
 }
+```
+
+To run the examples above, simply copy paste them into a `.rs` file and then follow these steps:
+
+```bash
+$ rustc example.rs
+# By default it should output an executable file with the same name as the source file
+$ ./example
 ```
 
 ### Our arsenal for tackling WebAssembly ([docs](https://rustwasm.github.io/book/game-of-life/setup.html))
