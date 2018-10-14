@@ -106,6 +106,10 @@ fn main() {
 ### WASM and JS
 Two official patterns for communicating between JavaScript and WASM:
 1. OGW
+<details><summary>Book comming soon</summary>
+<p>
+![img](./ogw.png)
+</p>
 2. KOSBIT
 
 #### Some common interactions
