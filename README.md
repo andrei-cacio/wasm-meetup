@@ -105,12 +105,8 @@ fn main() {
 
 ### WASM and JS
 Two official patterns for communicating between JavaScript and WASM:
-1. OGW
-<details><summary>Book comming soon</summary>
-<p>
-![img](./ogw.png)
-</p>
-2. KOSBIT
+1. [OGW](./ogw.png)
+2. [KOSBIT](./kosbit.png)
 
 #### Some common interactions
 1. Exporting and executing Rust functions in JavaScript
