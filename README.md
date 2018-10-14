@@ -60,14 +60,13 @@ pros:
 cons:
 - bleeding edge-ish, still under development (need Rust beta)
 
-### Our arsenal ([docs](https://rustwasm.github.io/book/game-of-life/setup.html))
-- `wasm-pack`
-- `cargo-generate`
-- `npm`
-- `wasm-bindgen`
-- `webpack 4`
-
 ### Rust
+#### The ecosystem
+- [rustup](https://rustup.rs/) Similar to npm's NVM, it is a way to simply switch between Rust versions
+- [cargo](https://crates.io/) Similar to npm, cargo is the official package manager for Rust
+- [rustc](https://doc.rust-lang.org/rustc/what-is-rustc.html) Rust's compiler
+
+#### The language
 Everything is immutable by default.
 
 #### Two out of three (ain't bad) key concepts of the language:
@@ -96,6 +95,13 @@ fn main() {
 	print_vec(&vec);
 }
 ```
+
+### Our arsenal for tackling WebAssembly ([docs](https://rustwasm.github.io/book/game-of-life/setup.html))
+- [`wasm-pack`](https://github.com/rustwasm/wasm-pack) The superhero in our movie. This tool manages our workflow and helps us create, build and ship WebAssembly code
+- [`cargo-generate`](https://github.com/ashleygwilliams/cargo-generate) This tool will generate us a Rust boilerplate project just to get us started fast.
+- [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) Our second superhero in our movie. This bad boy will be our main tour guide from Rust world to JS world and back.
+- `npm` Needs no intro
+- `webpack 4` Also needs no introduction
 
 ### WASM and JS
 Two official patterns for communicating between JavaScript and WASM:
