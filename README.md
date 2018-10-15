@@ -135,3 +135,4 @@ Two official patterns for communicating between JavaScript and WASM:
 4. [What makes WebAssembly fast](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
 5. [MDN - TypedArrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
 6. [wasm-bindgen docs](https://rustwasm.github.io/wasm-bindgen/)
+7. [Wasm Fiddle](https://wasdk.github.io/WasmFiddle/)
