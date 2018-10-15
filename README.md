@@ -19,7 +19,7 @@ Because of JavaScript's dynamic nature you cannot bypass all the optimization pr
 ## How does all of this work?
 ![img](./wasm.png)
 
-### Key concepts (3 out of 4)
+### Some core concepts of WebAssembly
 The `WebAssembly` namespace
 1. Module: The compiled wasm representation.
 2. Instance: The actual module with all the functions exported.
@@ -28,6 +28,12 @@ The first shared layer between our JavaScript environment and our WASM module is
 `ArrayBuffer`'s on their own are an intermediate representation of a blob of raw byte data. To work with this blob we will need a way shape it to our needs. Entering: [`TypedArrays`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays). 
 
 ![img](https://mdn.mozillademos.org/files/8629/typed_arrays.png)
+
+4: Data types:
+- **i32**: 32-bit integer
+- **i64**: 64-bit integer
+- **f32**: 32-bit floating point
+- **f64**: 64-bit floating point
 
 ```javascript
 const rawBuff = new ArrayBuffer(16);
