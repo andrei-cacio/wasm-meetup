@@ -130,8 +130,7 @@ Two official patterns for communicating between JavaScript and WASM:
 ## References
 1. [Rust Book - Ownership](https://doc.rust-lang.org/1.8.0/book/ownership.html)
 2. [Rust Book - References & Borrowing](https://doc.rust-lang.org/1.8.0/book/references-and-borrowing.html)
-3. [What makes WebAssembly fast - Lin Clark](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
-4. [WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
-5. [What makes WebAssembly fast](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
-6. [MDN - TypedArrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
-7. [wasm-bindgen docs](https://rustwasm.github.io/wasm-bindgen/)
+3. [WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
+4. [What makes WebAssembly fast](https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/)
+5. [MDN - TypedArrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
+6. [wasm-bindgen docs](https://rustwasm.github.io/wasm-bindgen/)
