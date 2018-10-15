@@ -122,11 +122,22 @@ Two official patterns for communicating between JavaScript and WASM:
 1. [OGW](./ogw.png)
 2. [KOSBIT](./kosbit.png)
 
-#### Some common interactions
-1. Exporting and executing Rust functions in JavaScript
-2. Calling JavaScript functions in Rust
-3. Reading an array from Rust
-4. Communicating with complex data structures
+#### Fuzzy Search demo app
+Preparing the Rust repo
+```bash
+$ git clone git@github.com:andrei-cacio/wasm-fuzzy-search.git
+$ cd wasm-fuzzy-search
+$ wasm-pack build
+```
+
+Preparing the JS app
+```bash
+$ git clone git@github.com:andrei-cacio/fuzzy-search-app.git
+$ cd fuzzy-search-app
+$ npm i
+$ npm link ../wasm-fuzzy-search
+$ npm start
+```
 
 ## References
 1. [Rust Book - Ownership](https://doc.rust-lang.org/1.8.0/book/ownership.html)
