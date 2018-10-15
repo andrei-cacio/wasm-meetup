@@ -72,14 +72,11 @@ Everything is immutable by default.
 #### Two out of three (ain't bad) key concepts of the language:
 - ownership
 ```rust
-fn print_vec(vec: Vec<i32>) {
-	println!("{:?}", vec);	
-}
-
 fn main() {
-	let vec = vec![1, 2, 3, 4];
-	print_vec(vec);
-	print_vec(vec);
+	let vec = vec![1, 2, 3];
+	let vec1 = vec;
+
+	println!("{:?}", vec);
 }
 ```
 - borrowing
