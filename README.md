@@ -50,12 +50,14 @@ cons:
 - steep learning curve
 - overwhelming docs
 - setting up everything can be awkward
+- low level js glue code
 
 ### [native-wasm-target](https://www.hellorust.com/news/native-wasm-target.html)
 pros:
 - no extra tooling, just the Rust compiler
 - [`wasm-bindgen`](https://rustwasm.github.io/wasm-bindgen) a more high level approach of **JS ⇔ wasm** interaction
 - easy setup
+- more "smarter" js glue code
 
 cons:
 - bleeding edge-ish, still under development (need Rust beta)
