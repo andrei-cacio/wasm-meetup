@@ -1,4 +1,4 @@
-# WebAssembly for JavaScritp Developers
+# WebAssembly for JavaScript Developers
 
 ## What is WebAssembly?
 
