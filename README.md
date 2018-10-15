@@ -29,12 +29,6 @@ The first shared layer between our JavaScript environment and our WASM module is
 
 ![img](https://mdn.mozillademos.org/files/8629/typed_arrays.png)
 
-4: Data types:
-- **i32**: 32-bit integer
-- **i64**: 64-bit integer
-- **f32**: 32-bit floating point
-- **f64**: 64-bit floating point
-
 ```javascript
 const rawBuff = new ArrayBuffer(16);
 const view8 = new Uint8Array(rawBuff);
@@ -43,6 +37,13 @@ const view32 = new Uint32Array(rawBuff);
 view32[0] = 1;
 view32[1] = 2;
 ```
+
+
+4: Data types:
+- **i32**: 32-bit integer
+- **i64**: 64-bit integer
+- **f32**: 32-bit floating point
+- **f64**: 64-bit floating point
 
 ## Tooling
 *Disclaimer: pros/cons from a newbie's point of view. Highly experienced proffesionals may have a different perspective*
