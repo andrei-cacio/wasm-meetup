@@ -118,9 +118,9 @@ $ ./example
 - `webpack 4` Also needs no introduction
 
 ### WASM and JS
-Two official patterns for communicating between JavaScript and WASM:
-1. [OGW](./ogw.png)
-2. [KOSBIT](./kosbit.png)
+Two official patterns for dealing with complex structures:
+1. [OGW](./ogw.png) [(docs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays#Working_with_complex_data_structures)
+2. [KOSBIT](./kosbit.png) [(docs)](https://rustwasm.github.io/wasm-bindgen/reference/arbitrary-data-with-serde.html)
 
 #### Fuzzy Search demo app
 Preparing the Rust repo
